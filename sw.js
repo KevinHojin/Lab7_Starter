@@ -10,11 +10,12 @@ self.addEventListener("install", function (event) {
    * Create a function as outlined above
    */
   var urlsToCache = [
-    "/",
-    "/assets/styles/main.css",
-    "/assets/scripts/main.js",
-    "/assets/components/RecipeCard.js",
-    "/assets/components/RecipeExpand.js",
+    "https://introweb.tech/assets/json/ghostCookies.json",
+    "https://introweb.tech/assets/json/birthdayCake.json",
+    "https://introweb.tech/assets/json/chocolateChip.json",
+    "https://introweb.tech/assets/json/stuffing.json",
+    "https://introweb.tech/assets/json/turkey.json",
+    "https://introweb.tech/assets/json/pumpkinPie.json",
   ];
 
   // Perform install steps
